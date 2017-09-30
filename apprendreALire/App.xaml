@@ -4,5 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:apprendreALire"
     RequestedTheme="Light">
+	<Application.Resources>
+		<ResourceDictionary>
+			<FontFamily x:Key="DyslexieFont">Assets/Dyslexie Regular LP204118.ttf#Dyslexie</FontFamily>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="MyButtonStyle.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
 
 </Application>

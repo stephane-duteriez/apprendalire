@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="apprendreALire.PlayPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:apprendreALire"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" FontFamily="Assets/Dyslexie Regular LP204118.ttf#Dyslexie">
+
+	<Grid x:Name="PlayGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Image x:Name="ImageToFind" HorizontalAlignment="Center" Height="300" Margin="0,60,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.483,0.467"/>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="listChoices" Margin="0,400,0,0" Height="160" Grid.Row="5" Grid.Column="5" Canvas.ZIndex="-1"/>
+		<Rectangle x:Name="FogLayer" Fill="#FF9EA49C" HorizontalAlignment="Left" Height="1080" Stroke="Black" VerticalAlignment="Top" Width="1920" Opacity="0.5" Visibility="Collapsed"/>
+	</Grid>
+</Page>
