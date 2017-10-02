@@ -9,6 +9,7 @@
 			<FontFamily x:Key="DyslexieFont">Assets/Dyslexie Regular LP204118.ttf#Dyslexie</FontFamily>
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="MyButtonStyle.xaml"/>
+                <ResourceDictionary Source="HintBoxStyle.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>

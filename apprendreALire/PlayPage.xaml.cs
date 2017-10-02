@@ -36,6 +36,7 @@ namespace apprendreALire
 		void SetTurn()
 		{
 			turn = newPlay.GetTurn();
+            HintBox.Content = turn.toFind.name;
 			SetImage(ImageToFind, turn.toFind);
 			SetGuesses(turn.toPlay);		
 		}
@@ -67,7 +68,7 @@ namespace apprendreALire
 			btnResult.Height = 150;
 			btnResult.Width = 400;
 			btnResult.FontSize = 40;
-			Canvas.SetZIndex(b, 5);
+			Canvas.SetZIndex(b, 8);
 			btnResult.Style = (Style)App.Current.Resources["MyButtonStyle"];
 			btnResult.FontFamily = (FontFamily)Application.Current.Resources["DyslexieFont"];
 			btnResult.Click += new RoutedEventHandler(NextTurn);
@@ -111,6 +112,7 @@ namespace apprendreALire
 				bitmapImage.UriSource = uri;
 				img.Source = bitmapImage;
 			}
+
 		}
 	}
 }
