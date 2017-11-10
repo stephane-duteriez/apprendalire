@@ -30,18 +30,21 @@ namespace apprendreALire
 		public PlayPage()
 		{
             this.InitializeComponent();
-			SetTurn();			
+            SetTurn();			
 		}
 
-		void SetTurn()
-		{
-			turn = newPlay.GetTurn();
+        void SetTurn()
+        {
+            turn = newPlay.GetTurn();
             HintBox.Content = turn.toFind.name;
-			SetImage(ImageToFind, turn.toFind);
-			SetGuesses(turn.toPlay);		
-		}
+            SetImage(ImageToFind, turn.toFind);
+            SetGuesses(turn.toPlay);
+            Uri newuri = new Uri("ms-appx:///Assets/audio/" + turn.toFind.soundFileName);
+            myPlayer.Source = newuri;
+            myPlayer.Play();
+        }
 
-		void SetGuesses(List<Word> listWords)
+        void SetGuesses(List<Word> listWords)
 		{
 			listChoices.Children.Clear();
 			foreach (Word myWord in listWords)
@@ -111,8 +114,16 @@ namespace apprendreALire
 				var bitmapImage = new BitmapImage();
 				bitmapImage.UriSource = uri;
 				img.Source = bitmapImage;
+                img.DoubleTapped += playSound;
 			}
 
 		}
-	}
+
+        private void playSound(object sender, DoubleTappedRoutedEventArgs e)
+        {
+            Uri newuri = new Uri("ms-appx:///Assets/audio/" + turn.toFind.soundFileName);
+            myPlayer.Source = newuri;
+            myPlayer.Play();
+        }
+    }
 }

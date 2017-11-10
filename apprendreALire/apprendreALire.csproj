@@ -113,6 +113,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="apprendreALire_TemporaryKey.pfx" />
+    <Content Include="Assets\audio\un livre.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Dyslexie Regular LP204118.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

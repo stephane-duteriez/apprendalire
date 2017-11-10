@@ -6,9 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" FontFamily="Assets/Dyslexie Regular LP204118.ttf#Dyslexie">
-
-	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<Button x:Name="BtnPlay" Content="Jouer" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Click="BtnPlay_click" FontFamily="Assets/Dyslexie Regular LP204118.ttf#Dyslexie" FontSize="48" Style="{StaticResource MyButtonStyle}" Background="#7F07951B" Foreground="#FFD2E236" Padding="0" UseLayoutRounding="True" Height="120" Canvas.ZIndex="1"/>
-
-	</Grid>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="BtnPlay" Content="Jouer" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Click="BtnPlay_click" FontFamily="Assets/Dyslexie Regular LP204118.ttf#Dyslexie" FontSize="48" Style="{StaticResource MyButtonStyle}" Background="#7F07951B" Foreground="#FFD2E236" Padding="0" UseLayoutRounding="True" Height="120" Canvas.ZIndex="1"/>
+    </Grid>
 </Page>

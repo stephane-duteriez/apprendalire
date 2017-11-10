@@ -12,5 +12,7 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="listChoices" Margin="0,400,0,0" Height="160" Grid.Row="5" Grid.Column="5" Canvas.ZIndex="-1"/>
         <Rectangle x:Name="FogLayer" Fill="#FF9EA49C" HorizontalAlignment="Left" Height="1080" Stroke="Black" VerticalAlignment="Top" Width="1920" Opacity="0.5" Visibility="Collapsed"/>
         <Button x:Name="HintBox" HorizontalAlignment="Center" Height="111" Margin="0,448,0,0" VerticalAlignment="Top" Width="523" Style="{StaticResource HintBoxStyle}" Content="?" Background="#33033CD4"/>
+        <MediaElement x:Name="myPlayer"
+ AutoPlay="True" />
     </Grid>
 </Page>

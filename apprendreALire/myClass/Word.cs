@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace apprendreALire.myClass { 
 
@@ -20,6 +21,6 @@ namespace apprendreALire.myClass {
 			this.imageFileName = imageFileName;
 			this.soundFileName = soundFileName;
 		}
-		public Word() {}
+        public Word() {}
 	}
 }
