@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Une table",
     "imageFileName": "UneTable.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une table.wav"
   },
   {
     "id": 2,
@@ -15,109 +15,295 @@
     "id": 3,
     "name": "Un crayon",
     "imageFileName": "UnCrayon.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un crayon.wav"
   },
   {
     "id": 4,
     "name": "Une croix",
     "imageFileName": "UneCroix.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une croix.wav"
   },
   {
     "id": 5,
     "name": "Une boite",
     "imageFileName": "UneBoite.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une boite.wav"
   },
   {
     "id": 6,
     "name": "Un arbre",
     "imageFileName": "UnArbre.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un arbre.wav"
   },
   {
     "id": 7,
     "name": "Une fleure",
     "imageFileName": "UneFleure.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une fleure.wav"
   },
   {
     "id": 8,
     "name": "Une étoile",
     "imageFileName": "UneEtoile.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une étoile.wav"
   },
   {
     "id": 9,
     "name": "Un soleil",
     "imageFileName": "UnSoleil.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un soleil.wav"
   },
   {
     "id": 10,
     "name": "Un lit",
     "imageFileName": "UnLit.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un lit.wav"
   },
   {
     "id": 11,
     "name": "Un chat",
     "imageFileName": "UnChat.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un chat.wav"
   },
   {
     "id": 12,
     "name": "Un livre",
     "imageFileName": "UnLivre.png",
-    "soundFileName": ""
+    "soundFileName": "un livre.wav"
   },
   {
     "id": 13,
     "name": "Une voiture",
     "imageFileName": "UneVoiture.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une voiture.wav"
   },
   {
     "id": 14,
     "name": "Un verre",
     "imageFileName": "UnVerre.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un verre.wav"
   },
   {
     "id": 15,
     "name": "Un vélo ",
     "imageFileName": "UnVelo.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "un vélo.wav"
   },
   {
     "id": 16,
     "name": "Une Chaise",
     "imageFileName": "UneChaise.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une chaisse.wav"
   },
   {
     "id": 17,
     "name": "Une clé",
     "imageFileName": "UneClé.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une clé.wav"
   },
   {
     "id": 18,
     "name": "Une fourchette",
     "imageFileName": "UneFourchette.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une fourchette.wav"
   },
   {
     "id": 19,
     "name": "Une lune",
     "imageFileName": "UneLune.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une lune.wav"
   },
   {
     "id": 20,
-    "name": "Un feuille",
+    "name": "Une feuille",
     "imageFileName": "UneFeuille.png",
-    "soundFileName": "un livre.wav"
+    "soundFileName": "une feuille.wav"
+  },
+  {
+    "id": 21,
+    "name": "Un ara",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "un ara.wav"
+  },
+  {
+    "id": 22,
+    "name": "Il y a",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "il y a.wav"
+  },
+  {
+    "id": 23,
+    "name": "dans",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "dans.wav"
+  },
+  {
+    "id": 24,
+    "name": "est",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "est.wav"
+  },
+  {
+    "id": 25,
+    "name": "Le nid",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "le nid.wav"
+  },
+  {
+    "id": 26,
+    "name": "Un rat",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "un rat.wav"
+  },
+  {
+    "id": 27,
+    "name": "le riz",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "le riz.wav"
+  },
+  {
+    "id": 28,
+    "name": "un ballon",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "un ballon.wav"
+  },
+  {
+    "id": 29,
+    "name": "Hugo",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Hugo.wav"
+  },
+  {
+    "id": 30,
+    "name": "un robot",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "un robot.wav"
+  },
+  {
+    "id": 31,
+    "name": "Hugo rit",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Hugo rit.wav"
+  },
+  {
+    "id": 32,
+    "name": "Il y a un rat.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "il y a rat.wav"
+  },
+  {
+    "id": 33,
+    "name": "Il ira",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "il ira.wav"
+  },
+  {
+    "id": 34,
+    "name": "Il y a un lilas",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "il y a un lilas.wav"
+  },
+  {
+    "id": 35,
+    "name": "Elle a un ara.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Elle a un ara.wav"
+  },
+  {
+    "id": 36,
+    "name": "Un ara",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Un ara.wav"
+  },
+  {
+    "id": 37,
+    "name": "Un lit est là.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Un lit est là.wav"
+  },
+  {
+    "id": 38,
+    "name": "Il y a Lili.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "il y a Lili.wav"
+  },
+  {
+    "id": 39,
+    "name": "Hugot rit.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Hugo rit.wav"
+  },
+  {
+    "id": 40,
+    "name": "Allô.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Allo.wav"
+  },
+  {
+    "id": 41,
+    "name": "Ali a de l'or.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Ali a de l'or.wav"
+  },
+  {
+    "id": 42,
+    "name": "Lola est sans or.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Lola est sans or.wav"
+  },
+  {
+    "id": 43,
+    "name": "Il est a Orly.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Il est a Orli.wav"
+  },
+  {
+    "id": 44,
+    "name": "Lola est le lot de Lili.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Lola est le lot de Lili.wav"
+  },
+  {
+    "id": 45,
+    "name": "Taoki est là.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Taoki est là.wav"
+  },
+  {
+    "id": 46,
+    "name": "Hugo est sans or.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Hugo est sans or.wav"
+  },
+  {
+    "id": 47,
+    "name": "Lili est allée à un rallye.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Lili est allé à un rallye.wav"
+  },
+  {
+    "id": 48,
+    "name": "C'est Léa!",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "C'est Léa.wav"
+  },
+  {
+    "id": 49,
+    "name": "C'est une allée.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "C'est un allée.wav"
+  },
+  {
+    "id": 50,
+    "name": "Il ira dans l'allée.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Il ira dans l'allée.wav"
+  },
+  {
+    "id": 51,
+    "name": "Il a un allié.",
+    "imageFileName": "inconnue.png",
+    "soundFileName": "Il est un allié.wav"
   }
 
 ]
